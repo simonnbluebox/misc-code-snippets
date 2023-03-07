@@ -1,0 +1,21 @@
+{
+    "name": "bluebox/worldwide",
+    "description": "BlueBox custom modules",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+        "overtrue/phplint": "^9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darryl Stuart",
+            "email": "darryl.stuart@blueboxonline.com"
+        },
+        {
+            "name": "Simon N",
+            "email": "simonn.bluebox@gmail.com"
+        }
+    ]
+}
