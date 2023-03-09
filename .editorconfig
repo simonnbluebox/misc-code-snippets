@@ -1,4 +1,21 @@
 root = true
+; this is a sigle-line comment. Comments cannot exist at the end of lines
+; keys and values are case-sensitive and must be lowercase.
+; see https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
 
 [*]
+; use these settings as a style guide reference.
+charset = utf-8
+indent_style = space
+indent_size = 2
+tab_width = 2
 end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+;[draft]
+; Draft/experimental (proposed, but not yet widely supported, if at all)
+; quote_type = double ; preferred quoting style for string literals
+; curly_bracket_next_line = false ; Place opening curly brace on new line?
+; spaces_aound_operators = true ; Place spaces around arithmetic and boolean operators?
+; spaces_arond_brackets = outside ; Place spaces around brackets and parentheses
+; continuation_indent_size = 2 ; for continuation lines within code blocks. (JetBrains and NetBeans only)
