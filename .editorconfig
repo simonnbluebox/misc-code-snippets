@@ -2,9 +2,10 @@ root = true
 ; this is a sigle-line comment. Comments cannot exist at the end of lines
 ; keys and values are case-sensitive and must be lowercase.
 ; see https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+; use these settings as a style guide reference.
 
 [*]
-; use these settings as a style guide reference.
+; global (all)
 charset = utf-8
 indent_style = space
 indent_size = 2
@@ -12,6 +13,18 @@ tab_width = 2
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
+[nim, nimlang, nimrod]
+; Settings specific to nim
+indent_style = space
+indent_size = 2
+tab_width = 2
+; continuation_indent_size = 2
+[cython, py, python]
+; settings specific to Cython and Python (specifically PEP8)
+indent_style = space
+indent_size = 4
+tab_width = 4
+; continuation_indent_size = 4
 ;[draft]
 ; Draft/experimental (proposed, but not yet widely supported, if at all)
 ; quote_type = double ; preferred quoting style for string literals
